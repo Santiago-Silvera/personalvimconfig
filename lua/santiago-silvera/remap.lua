@@ -16,6 +16,10 @@ vim.keymap.set("n", "<Down>", "<Nop>")
 vim.keymap.set("n", "<Left>", "<Nop>")
 vim.keymap.set("n", "<Right>", "<Nop>")
 
+vim.keymap.set("n", "<leader>v", "<C-w>v<C-w>l")
+vim.keymap.set("n", "<leader>vt", "<C-w>v<C-w>l:terminal<CR>i")
+vim.keymap.set("t", "<leader>x", "<C-\\><C-n>:q<CR>")
+
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
